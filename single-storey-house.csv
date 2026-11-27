@@ -1,0 +1,13 @@
+id,name,duration,predecessors
+A,Site setup,2,
+B,Excavation,3,A
+C,Footings and foundation,5,B
+D,Ground floor slab,4,C
+E,Structural walls,8,D
+F,Roof structure,6,E
+G,Roof covering,4,F
+H,Electrical first fix,5,E
+I,Plumbing first fix,5,E
+J,Plastering and screed,7,"H,I"
+K,Painting,6,"J,G"
+L,Final inspection and handover,2,K
